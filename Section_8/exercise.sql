@@ -1,3 +1,4 @@
+-- use book_shop database
 -- Print all title which contain the word stories
 SELECT title FROM books WHERE title LIKE '%stories%';
 -- Find the Longest book in terms of page number
